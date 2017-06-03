@@ -7,7 +7,7 @@ RUN mkdir -p /opt
 WORKDIR /opt
 
 # Download buildroot
-ENV BR_VER 2016.08
+ENV BR_VER 2017.02.1
 ENV BR_DIR buildroot-${BR_VER}
 ENV BR_TAR ${BR_DIR}.tar.bz2
 ENV BR_URL https://buildroot.org/downloads/${BR_TAR}
